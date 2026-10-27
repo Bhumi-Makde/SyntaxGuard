@@ -1,0 +1,51 @@
+# React dependencies and build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python cache and environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated compiler files
+backend/lex.yy.c
+backend/parser.tab.c
+backend/parser.tab.h
+backend/syntaxguard.exe
+
+# Temporary files
+test/web_input_*.c
+test/*_corrected.c
+
+# Backup files
+*_before_*.py
+*_before_*.y
+*_before_*.l
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Exclude all test files
+test/
+
+# Backup files
+*_backup.*
+*_working_backup.*
+
+# Unnecessary files
+backend/Appending
+backend/Disabled
+backend/Disabling
+backend/Generating
+backend/Importing
+backend/Locally
+backend/Updating
